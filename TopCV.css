@@ -1,0 +1,55 @@
+h2 {
+    color: white;
+    background-color: orange;
+    display: block;
+    border-radius: 20px;
+    margin-block-end: 4px;
+    block-size: 30px;
+    width: 300px;
+    position: inherit;
+    text-align: center;
+}
+
+ul {
+    font-weight: bold;
+}
+
+.sectionleft1 {
+    display: block;
+    width: 40%;
+    text-align: end;
+    float: left;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    margin-right: 4%;
+}
+
+.sectionleft {
+    display: block;
+    width: 40%;
+    float: left;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    margin-right: 3%;
+}
+
+.sectionright1 {
+    display: block;
+    width: 40%;
+    float: left;
+    position: relative;
+    right: 0px;
+    overflow: hidden;
+    margin-left: 3%;
+}
+
+.sectionright {
+    display: block;
+    width: 40%;
+    position: relative;
+    right: 0px;
+    overflow: hidden;
+    margin-left: 3%;
+}
