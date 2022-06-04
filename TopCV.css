@@ -29,6 +29,7 @@ ul {
     display: block;
     width: 40%;
     float: left;
+    text-align: end;
     position: relative;
     left: 0px;
     overflow: hidden;
