@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner 8 den 10</title>
+</head>
+
+<body>
+    <script>
+        var r = parseInt(prompt("Nhap ban kinh duong tron"));
+
+        function test(r) {
+            if (r <= 0) {
+                alert("Error: r <= 0 ");
+                return false;
+                // bao loi r <= 0
+            } else {
+                return true;
+            }
+        }
+
+
+        function perimeter(r) {
+            if (r > 0) {
+                return r * 2 * 3.14;
+            }
+        }
+
+        function area(r) {
+            if (r > 0) {
+                return r * r * 3.14;
+            }
+        }
+
+        function chayChuongTrinh(r) {
+            var t = test(r);
+            if (t === true) {
+                var p = perimeter(r);
+                var aR = area(r);
+                document.write("Ban kinh duong tron bang " + r + "." + "<br>" + "Chu vi bang " + p + ".<br>");
+                document.write("Ban kinh duong tron bang " + r + "." + "<br>" + "Dien tich bang " + aR + ".<br>");
+
+            }
+        }
+        chayChuongTrinh(r);
+    </script>
+</body>
+
+</html>
