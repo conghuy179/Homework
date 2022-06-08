@@ -1,19 +1,57 @@
-<script>
-    var a = parseInt(prompt("Nhập số a"));
-    var b = parseInt(prompt("Nhập số b"));
-    // Tinh Tong
-    var tong = a + b;
-    document.write("Tong cua " + a + "va " + b + "= " + tong); <
-    br >
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWORK 1 to 5</title>
+</head>
+
+<body>
+    <script>
+        var a = parseInt(prompt("Nhập số a"));
+        var b = parseInt(prompt("Nhập số b"));
+
+        function sum(x, y) {
+            return x + y;
+        }
+
+        function subtract(x, y) {
+            return x - y;
+        }
+
+        function product(x, y) {
+            return x * y;
+        }
+
+        function divide(x, y) {
+            return x / y;
+        }
+
+        function remainder(x, y) {
+            return x % y;
+        }
+
+        var s = sum(a, b);
+        document.write("Tong cua " + a + " va " + b + " = " + s + "<br>");
         // Tinh Hieu
-        var hieu = a - b;
-    document.write("Hieu cua " + a + "va " + b + "= " + hieu); <
-    br >
+        var s2 = subtract(a, b);
+        document.write("Hieu cua " + a + " va " + b + " = " + s2 + "<br>");
         // Tinh Tich
-        var tich = a * b;
-    document.write("Tich cua " + a + "va " + b + "= " + tich); <
-    br >
+        var tich = product(a, b);
+        document.write("Tich cua " + a + " va " + b + " = " + tich + "<br>");
         // Tinh Thuong
-        var thuong = a / b;
-    document.write("Thuong cua " + a + "va " + b + "= " + thuong);
-</script>
+        var thuong = divide(a, b);
+        document.write("Thuong cua " + a + " va " + b + " = " + thuong + "<br>");
+        // Tinh so du
+        var du = remainder(a, b);
+        document.write("So du cua " + a + " khi chia cho " + b + " = " + du);
+
+
+
+        sum(1, 2);
+        sum(5, 10);
+    </script>
+</body>
